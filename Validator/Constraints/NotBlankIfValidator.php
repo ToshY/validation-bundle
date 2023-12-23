@@ -21,7 +21,7 @@ class NotBlankIfValidator extends NotBlankValidator
         $this->expressionLanguage = $expressionLanguage;
     }
 
-    public function validate($value, Constraint $constraint)
+    public function validate($value, Constraint $constraint): void
     {
         if (!$constraint instanceof NotBlankIf) {
             throw new UnexpectedTypeException($constraint, NotBlankIf::class);
