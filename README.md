@@ -2,7 +2,7 @@
 
 Additional validators set for Symfony 6/7.
 
-> The version 2.0 and above are only compatible with Symfony 6+ and PHP 8+. Previous versions support was dropped. If you'd like to use it with Symfony 4.x or 5.x you should use the version 1.8 which was the last compatible with Symfony 4.x and 5.x.
+> This is a fork from [secit-pl/validation-bundle](https://github.com/secit-pl/validation-bundle).
 
 
 ## Installation
@@ -10,7 +10,7 @@ Additional validators set for Symfony 6/7.
 From the command line run
 
 ```
-$ composer require secit-pl/validation-bundle
+$ composer require toshy/validation-bundle
 ```
 
 ## Validators
