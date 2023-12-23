@@ -21,7 +21,7 @@ class BurnerEmailValidator extends ConstraintValidator
         $this->parameterBag = $parameterBag;
     }
 
-    public function validate($value, Constraint $constraint)
+    public function validate($value, Constraint $constraint): void
     {
         if (!$constraint instanceof BurnerEmail) {
             throw new UnexpectedTypeException($constraint, BurnerEmail::class);
