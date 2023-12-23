@@ -1,5 +1,5 @@
 {
-    "name": "secit-pl/validation-bundle",
+    "name": "toshy/validation-bundle",
     "type": "symfony-bundle",
     "description": "Additional Symfony validators.",
     "keywords": ["symfony", "validator", "file", "file extension", "xss", "html"],
@@ -9,6 +9,10 @@
         {
             "name": "Tomasz Gemza",
             "email": "t.gemza@secit.pl"
+        },
+        {
+            "name": "ToshY",
+            "homepage": "https://github.com/ToshY"
         }
     ],
     "require": {
