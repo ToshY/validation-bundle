@@ -1,6 +1,6 @@
 # Symfony Validation Bundle
 
-Additional validators set for Symfony 6/7.
+Additional validators set for Symfony 6/7/8
 
 > This is a fork from [secit-pl/validation-bundle](https://github.com/secit-pl/validation-bundle).
 
